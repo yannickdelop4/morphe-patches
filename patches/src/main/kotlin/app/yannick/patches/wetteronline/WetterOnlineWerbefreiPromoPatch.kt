@@ -55,17 +55,17 @@ val wetterOnlineWerbefreiPromoPatch = patch(
     compatibleWith(WETTERONLINE_COMPATIBILITY)
 
     execute {
-        val homeMatches = WetterOnlineHomePromoFingerprint.method.instructionMatches
+        val homeMatches = WetterOnlineHomePromoFingerprint.instructionMatches
         check(homeMatches.size == 1) {
             "WetterOnline 2026.22: Erwartete genau einen Promo-Aufruf in Lcma.invoke(), gefunden: ${homeMatches.size}."
         }
 
-        val secondMatches = WetterOnlineSecondPromoFingerprint.method.instructionMatches
+        val secondMatches = WetterOnlineSecondPromoFingerprint.instructionMatches
         check(secondMatches.size == 1) {
             "WetterOnline 2026.22: Erwartete genau einen Promo-Aufruf in Lj97.invoke(), gefunden: ${secondMatches.size}."
         }
 
-        WetterOnlineHomePromoFingerprint.method.removeInstruction(homeMatches.single())
-        WetterOnlineSecondPromoFingerprint.method.removeInstruction(secondMatches.single())
+        WetterOnlineHomePromoFingerprint.method.removeInstruction(homeMatches.single().index)
+        WetterOnlineSecondPromoFingerprint.method.removeInstruction(secondMatches.single().index)
     }
 }
