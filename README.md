@@ -7,6 +7,11 @@ Independent custom Android patches built with the
 > versions, fingerprint matching, bundle generation, and on-device behavior
 > have been verified.
 
+## Patch index
+
+<!-- PATCHES_START -->
+<!-- PATCHES_END -->
+
 ## WetterOnline — remove Werbefrei promotional cards
 
 - Package: `de.wetteronline.wetterapp`
