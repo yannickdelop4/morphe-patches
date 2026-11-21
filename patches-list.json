@@ -4,7 +4,7 @@
   "patches": [
     {
       "name": "WetterOnline: Werbefrei-Promo ausblenden",
-      "description": "Experimentell: entfernt die beiden bekannten Werbefrei-Promo-Aufrufe.",
+      "description": "Experimentell: entfernt eine bekannte Werbefrei-Promo-Aufrufstelle. Weitere Aufrufstellen und reservierte Werbeplätze sind noch nicht behoben.",
       "default": false,
       "category": null,
       "compatiblePackages": [
