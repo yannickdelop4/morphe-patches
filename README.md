@@ -22,6 +22,11 @@ Public collection of independent custom Android patches, built with the
 
 No release is advertised as functional until this is resolved and tested.
 
+## Patch index
+
+<!-- PATCHES_START -->
+<!-- PATCHES_END -->
+
 ## Development
 
 This repository follows the official Morphe patches template structure.
