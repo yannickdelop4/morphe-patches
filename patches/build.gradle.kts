@@ -13,8 +13,8 @@ group = "app.yannick"
 
 patches {
     about {
-        name = "Yannick's Morphe Patches"
-        description = "Independent custom patches for Android apps"
+        name = "Yannick Patches"
+        description = "Independent custom patches for Android apps; compatible with Morphe."
         source = "https://github.com/yannickdelop4/morphe-patches"
         author = "yannickdelop4"
         contact = "https://github.com/yannickdelop4"
