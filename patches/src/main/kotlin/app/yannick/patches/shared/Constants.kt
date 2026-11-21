@@ -9,7 +9,7 @@ object Constants {
         name = "WetterOnline",
         packageName = "de.wetteronline.wetterapp",
         apkFileType = ApkFileType.APKM,
-        appIconColor = 0xFFB8D3E2,
+        appIconColor = 0xB8D3E2,
         targets = listOf(
             AppTarget(
                 version = "2026.22",
