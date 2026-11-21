@@ -25,6 +25,11 @@ No release is advertised as functional until this is resolved and tested.
 ## Patch index
 
 <!-- PATCHES_START -->
+> **[v1.0.0-dev.1](https://github.com/yannickdelop4/morphe-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`dev`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**1 patches** across **1 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+
+| # | App | Patches | Version | Package |
+|---|---|---|---|---|
+| 1 | [**WetterOnline**](PATCHES.md#wetteronline-dewetteronlinewetterapp) | 1 | `experimental 2026.22` | [`de.wetteronline.wetterapp`](https://play.google.com/store/apps/details?id=de.wetteronline.wetterapp) |
 <!-- PATCHES_END -->
 
 ## Development

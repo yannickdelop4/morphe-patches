@@ -1,0 +1,17 @@
+## 1.0.0-dev.1 (2026-11-21)
+
+### ✨ New Features
+
+* add experimental WetterOnline promo patch ([63fe645](https://github.com/yannickdelop4/morphe-patches/commit/63fe645d888ae1c95b11a474d1048600c74e2bf6))
+* add WetterOnline compatibility metadata ([bf8c9ed](https://github.com/yannickdelop4/morphe-patches/commit/bf8c9ed0fdc221b5d3d7345f0001555baf0f4908))
+
+### 🐛 Bug Fixes
+
+* add missing Morphe patch list generator ([ea4959d](https://github.com/yannickdelop4/morphe-patches/commit/ea4959de8c042979e6d9e4d617137112837f29b1))
+* add Morphe patch index markers ([915ac8c](https://github.com/yannickdelop4/morphe-patches/commit/915ac8c4fd28d0a463fd7d9ea2ed840c98759893))
+* commit generated PATCHES.md with releases ([93954b5](https://github.com/yannickdelop4/morphe-patches/commit/93954b562152a39f9917a3d251d526b35ad16c69))
+* read instruction matches from fingerprints ([82dcd72](https://github.com/yannickdelop4/morphe-patches/commit/82dcd72b9afeb56314bb1314075ac4b340defa65))
+* repair semantic-release JSON and include generated patches doc ([b2a179a](https://github.com/yannickdelop4/morphe-patches/commit/b2a179a0d3fef1e7b199b017abe5c9e980e4fabb))
+* target both WetterOnline promo call sites ([145241e](https://github.com/yannickdelop4/morphe-patches/commit/145241efbfb7b73af69a6ca9939ed30991607f4c))
+* use current Fingerprint match API ([c64aaea](https://github.com/yannickdelop4/morphe-patches/commit/c64aaea62e94cf56bf3164e1be44e59fbff10898))
+* use valid WetterOnline icon color value ([ef96b33](https://github.com/yannickdelop4/morphe-patches/commit/ef96b33abc903d3bcdb988afc3b7d0b98601e25b))
