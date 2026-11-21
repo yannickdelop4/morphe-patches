@@ -1,0 +1,13 @@
+.gradle/
+**/build/
+node_modules/
+.idea/
+.vscode/
+local.properties
+/gradle.properties.local
+morphe-signing.key
+*.apk
+*.apkm
+*.xapk
+*.mpp
+*.log
